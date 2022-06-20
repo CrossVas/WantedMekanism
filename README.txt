@@ -1,4 +1,4 @@
-# About this mod =\
+> About this mod
 
 This mod adds some wanted features for Mekanism's Tools and Armors.
 
@@ -11,10 +11,10 @@ Changed the way Armored Jetpack works.
 You can switch jetpack state on/off just by pressing Mode Switch Key.
 You can switch jetpack mode hover/normal just by pressing Space + Mode Switch Key.
 
- # Plans
+> Plans
 
 At this point everything I wanted is already implemented.
 
- # Credits
+> Credits
 
 Mekanism Mod Team for motivation and their mod in general.
