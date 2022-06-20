@@ -1,0 +1,19 @@
+{
+  "type": "mekanism:mek_data",
+  "result": {
+    "item": "wantedmekanism:wantedjetpack"
+  },
+  "pattern": [
+    " a ",
+    "aJa",
+    " a "
+  ],
+  "key": {
+    "J": {
+      "item": "mekanism:jetpack_armored"
+    },
+    "a": {
+      "item": "mekanism:alloy_infused"
+    }
+  }
+}

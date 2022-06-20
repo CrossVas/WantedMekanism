@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:mek_data",
+  "result": {
+    "item": "wantedmekanism:wantedassembler"
+  },
+  "pattern": [
+    " O ",
+    "OAO",
+    "CTC"
+  ],
+  "key": {
+    "T": {
+      "item": "mekanism:energy_tablet"
+    },
+    "O": {
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    "A": {
+      "item": "mekanism:atomic_disassembler"
+    },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  }
+}
