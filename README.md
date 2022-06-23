@@ -1,3 +1,5 @@
+Available for: 1.16.5, 1.18.2
+
 # About this mod
 
 This mod adds some wanted features for Mekanism's Tools and Armors.
