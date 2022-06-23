@@ -1,7 +1,7 @@
 {
   "type": "mekanism:mek_data",
   "result": {
-    "item": "wantedassembly:wantedassembler"
+    "item": "wantedmekanism:wantedassembler"
   },
   "pattern": [
     " O ",
