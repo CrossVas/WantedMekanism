@@ -4,10 +4,10 @@ import mekanism.client.key.MekanismKeyHandler;
 import mekanism.common.MekanismLang;
 import mekanism.common.item.gear.ItemArmoredJetpack;
 import mekanism.common.util.MekanismUtils;
-import net.minecraft.Util;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.Util;
 
 import javax.annotation.Nonnull;
 
@@ -18,8 +18,8 @@ public class ItemWantedJetpack extends ItemArmoredJetpack {
     }
 
     @Override
-    public void changeMode(@Nonnull Player player, @Nonnull ItemStack stack, int shift, boolean displayChangeMessage) {
-        JetpackMode mode = getJetpackMode(stack);
+    public void changeMode(@Nonnull PlayerEntity player, @Nonnull ItemStack stack, int shift, boolean displayChangeMessage) {
+        JetpackMode mode = getMode(stack);
         Minecraft mc = Minecraft.getInstance();
         boolean jumpKeyDown = mc.options.keyJump.isDown();
         if (MekanismKeyHandler.chestModeSwitchKey.isDown()) {

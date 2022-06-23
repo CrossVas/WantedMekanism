@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[0,)"
+loaderVersion="[36,)"
 license="All rights reserved"
 [[mods]]
 modId="wantedmekanism"
@@ -8,10 +8,10 @@ displayName="Wanted Mekanism"
 description='''
 Wanted features for some Mekanism Tool and Armor. Mainly Atomic Disassembler and Armored Jetpack
 '''
-[[dependencies.wantedmekanism]]
+[[dependencies.omnitools]]
     modId="mekanism"
     mandatory=true
-    versionRange="10.2.3.463"
+    versionRange="10.1.0.455"
     ordering="AFTER"
     side="BOTH"
 
